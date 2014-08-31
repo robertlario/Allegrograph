@@ -1,0 +1,757 @@
+<ReleaseSet>
+
+<ClinVarSet ID="2376645">
+  <RecordStatus>current</RecordStatus>
+  <Title>JAK2:c.1615_1616delAAinsTT (p.Lys539Leu) AND ERYTHROCYTOSIS, JAK2-RELATED, SOMATIC</Title>
+  <ReferenceClinVarAssertion DateCreated="2012-08-13" DateLastUpdated="2014-05-30" ID="73277">
+    <ClinVarAccession Acc="RCV000015774" Version="2" Type="RCV" DateUpdated="2014-05-30"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2014-01-28">
+      <ReviewStatus>classified by single submitter</ReviewStatus>
+      <Description>other</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>somatic</Origin>
+        <Species TaxonomyId="9606">human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData ID="2023706">
+        <Attribute Type="Description">Among 10 patients with a diagnosis of polycythemia vera or idiopathic erythrocytosis (see 133100) who did not carry the V617F mutation in JAK2 (147796.0001), Scott et al. (2007) found 3 alleles carrying a somatic lys539-to-leu substitution (K539L) in exon 12 of the JAK2 gene. Those with this and 3 other JAK2 exon 12 mutations presented with an isolated erythrocytosis and distinctive bone marrow morphology, and several also had reduced serum erythropoietin levels. Erythroid colonies could be grown from their blood samples in the absence of exogenous erythropoietin. All such erythroid colonies were heterozygous for the mutation, whereas colonies homozygous for the mutation occurred in most patients with V617F-positive polycythemia vera. The K539L mutation resulted in a myeloproliferative phenotype, including erythrocytosis, in a murine model of retroviral bone marrow transplantation.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">17267906</ID>
+        </Citation>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant" ID="14664">
+      <Measure Type="Indel" ID="29703">
+        <Name>
+          <ElementValue Type="Preferred">JAK2:c.1615_1616delAAinsTT (p.Lys539Leu)</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="HGVS, coding, RefSeq" Change="c.1615_1616delAAinsTT">NM_004972.3:c.1615_1616delAAinsTT</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="HGVS, genomic, RefSeqGene" Change="g.89782_89783delAAinsTT">NG_009904.1:g.89782_89783delAAinsTT</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="HGVS, genomic, top level" Change="g.5070026_5070027delAAinsTT">NC_000009.12:g.5070026_5070027delAAinsTT</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="HGVS, genomic, top level, previous" Change="g.5070026_5070027delAAinsTT">NC_000009.11:g.5070026_5070027delAAinsTT</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="HGVS, protein, RefSeq" Change="p.Lys539Leu">NP_004963.1:p.Lys539Leu</Attribute>
+          <XRef Type="rs" ID="121912473" DB="dbSNP"/>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="MolecularConsequence">missense</Attribute>
+          <XRef ID="121912473" DB="dbSNP"/>
+          <XRef ID="SO:0001583" DB="Sequence Ontology"/>
+          <XRef ID="NM_004972.3:c.1615_1616delAAinsTT" DB="RefSeq"/>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="ProteinChange1LetterCode">K539L</Attribute>
+          <XRef Type="Allelic variant" ID="147796.0003" DB="OMIM"/>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="ProteinChange3LetterCode">LYS539LEU</Attribute>
+          <XRef Type="Allelic variant" ID="147796.0003" DB="OMIM"/>
+        </AttributeSet>
+        <CytogeneticLocation>9p24.1</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" Chr="9" Accession="NC_000009.11" start="5070026" stop="5070027"/>
+        <SequenceLocation Assembly="GRCh38" Chr="9" Accession="NC_000009.12" start="5070026" stop="5070027"/>
+        <MeasureRelationship Type="variant in gene">
+          <Name>
+            <ElementValue Type="Preferred">Janus kinase 2</ElementValue>
+          </Name>
+          <Symbol>
+            <ElementValue Type="Preferred">JAK2</ElementValue>
+          </Symbol>
+          <SequenceLocation Assembly="GRCh37" Chr="9" Accession="NC_000009.11" start="4985244" stop="5128182" Strand="+"/>
+          <SequenceLocation Assembly="GRCh38" Chr="9" Accession="NC_000009.12" start="4985244" stop="5129947" Strand="+"/>
+          <XRef ID="3717" DB="Gene"/>
+          <XRef Type="MIM" ID="147796" DB="OMIM"/>
+        </MeasureRelationship>
+        <XRef Type="Allelic variant" ID="147796.0003" DB="OMIM"/>
+        <XRef Type="rs" ID="121912473" DB="dbSNP"/>
+      </Measure>
+      <Name>
+        <ElementValue Type="preferred name">JAK2:c.1615_1616delAAinsTT (p.Lys539Leu)</ElementValue>
+      </Name>
+    </MeasureSet>
+    <TraitSet Type="Disease" ID="4049">
+      <Trait ID="11379" Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">ERYTHROCYTOSIS, JAK2-RELATED, SOMATIC</ElementValue>
+          <XRef Type="Allelic variant" ID="147796.0003" DB="OMIM"/>
+        </Name>
+      </Trait>
+    </TraitSet>
+  </ReferenceClinVarAssertion>
+  <ClinVarAssertion ID="36041">
+    <ClinVarSubmissionID localKey="147796.0003_ERYTHROCYTOSIS, JAK2-RELATED, SOMATIC" title="JAK2, LYS539LEU_ERYTHROCYTOSIS, JAK2-RELATED, SOMATIC" submitterDate="2014-01-28" submitter="OMIM"/>
+    <ClinVarAccession Acc="SCV000036041" Version="2" Type="SCV" OrgID="3" DateUpdated="2014-03-19"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2014-01-28">
+      <Description>other</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ExternalID DB="OMIM" Type="Allelic variant" ID="147796.0003"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>somatic</Origin>
+        <Species>human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData>
+        <Attribute Type="Description">Among 10 patients with a diagnosis of polycythemia vera or idiopathic erythrocytosis (see 133100) who did not carry the V617F mutation in JAK2 (147796.0001), Scott et al. (2007) found 3 alleles carrying a somatic lys539-to-leu substitution (K539L) in exon 12 of the JAK2 gene. Those with this and 3 other JAK2 exon 12 mutations presented with an isolated erythrocytosis and distinctive bone marrow morphology, and several also had reduced serum erythropoietin levels. Erythroid colonies could be grown from their blood samples in the absence of exogenous erythropoietin. All such erythroid colonies were heterozygous for the mutation, whereas colonies homozygous for the mutation occurred in most patients with V617F-positive polycythemia vera. The K539L mutation resulted in a myeloproliferative phenotype, including erythrocytosis, in a murine model of retroviral bone marrow transplantation.</Attribute>
+        <Citation>
+          <ID Source="PubMed">17267906</ID>
+        </Citation>
+        <XRef DB="OMIM" Type="MIM" ID="133100"/>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant">
+      <Measure Type="Variation">
+        <Name>
+          <ElementValue Type="Preferred">JAK2, LYS539LEU</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="NonHGVS">LYS539LEU</Attribute>
+        </AttributeSet>
+        <MeasureRelationship Type="variant in gene">
+          <Symbol>
+            <ElementValue Type="Preferred">JAK2</ElementValue>
+          </Symbol>
+        </MeasureRelationship>
+        <XRef DB="OMIM" Type="Allelic variant" ID="147796.0003"/>
+      </Measure>
+    </MeasureSet>
+    <TraitSet Type="Disease">
+      <Trait Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">ERYTHROCYTOSIS, JAK2-RELATED, SOMATIC</ElementValue>
+        </Name>
+      </Trait>
+    </TraitSet>
+  </ClinVarAssertion>
+</ClinVarSet>
+
+<ClinVarSet ID="2376651">
+  <RecordStatus>current</RecordStatus>
+  <Title>IL2RA, 4-BP DEL, NT60 AND Interleukin 2 receptor, alpha, deficiency of</Title>
+  <ReferenceClinVarAssertion DateCreated="2012-08-13" DateLastUpdated="2014-05-30" ID="73283">
+    <ClinVarAccession Acc="RCV000015780" Version="24" Type="RCV" DateUpdated="2014-05-30"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2012-11-28">
+      <ReviewStatus>classified by single submitter</ReviewStatus>
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species TaxonomyId="9606">human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData ID="2012185">
+        <Attribute Type="Description">In a patient with severe immunodeficiency (606367), who was subsequently treated with allogeneic bone marrow transplantation, Sharfe et al. (1997) found homozygosity for a 4-bp deletion in the IL2RA gene at nucleotides 60 to 64, resulting in a translational frameshift. Translation proceeded for 20 amino acids before the deletion and resultant frameshift occurred, effectively ablating CD25 expression. A further 25 irrelevant amino acids were added before termination. The homozygous nature of the mutation was confirmed by analysis of sequences from the parents, who both demonstrated a normal and a 4-bp-deleted allele.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">9096364</ID>
+        </Citation>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant" ID="14668">
+      <Measure Type="Deletion" ID="29707">
+        <Name>
+          <ElementValue Type="preferred name">IL2RA, 4-BP DEL, NT60</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="nucleotide change">4-BP DEL, NT60</Attribute>
+          <XRef Type="Allelic variant" ID="147730.0001" DB="OMIM"/>
+        </AttributeSet>
+        <CytogeneticLocation>10p15.1</CytogeneticLocation>
+        <MeasureRelationship Type="variant in gene">
+          <Name>
+            <ElementValue Type="Preferred">interleukin 2 receptor, alpha</ElementValue>
+          </Name>
+          <Symbol>
+            <ElementValue Type="Preferred">IL2RA</ElementValue>
+          </Symbol>
+          <SequenceLocation Assembly="GRCh37" Chr="10" Accession="NC_000010.10" start="6052656" stop="6104332" Strand="-"/>
+          <SequenceLocation Assembly="GRCh38" Chr="10" Accession="NC_000010.11" start="6010693" stop="6062369" Strand="-"/>
+          <XRef ID="3559" DB="Gene"/>
+          <XRef Type="MIM" ID="147730" DB="OMIM"/>
+        </MeasureRelationship>
+        <XRef Type="Allelic variant" ID="147730.0001" DB="OMIM"/>
+      </Measure>
+      <Name>
+        <ElementValue Type="preferred name">IL2RA, 4-BP DEL, NT60</ElementValue>
+      </Name>
+    </MeasureSet>
+    <TraitSet Type="Disease" ID="4052">
+      <Trait ID="2315" Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">Interleukin 2 receptor, alpha, deficiency of</ElementValue>
+          <XRef ID="Interleukin+2+receptor%2C+alpha%2C+deficiency+of/8676" DB="Genetic Alliance"/>
+        </Name>
+        <Name>
+          <ElementValue Type="Alternate">CD25 DEFICIENCY</ElementValue>
+          <XRef Type="MIM" ID="606367" DB="OMIM"/>
+        </Name>
+        <Name>
+          <ElementValue Type="Alternate">IL2RA DEFICIENCY</ElementValue>
+          <XRef Type="MIM" ID="606367" DB="OMIM"/>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="age of onset">Neonatal/infancy</Attribute>
+          <XRef ID="169100" DB="Orphanet"/>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="prevalence">&lt;1 / 1 000 000</Attribute>
+          <XRef ID="169100" DB="Orphanet"/>
+        </AttributeSet>
+        <XRef ID="C1853392" DB="MedGen"/>
+        <XRef ID="169100" DB="Orphanet"/>
+        <XRef Type="MIM" ID="606367" DB="OMIM"/>
+      </Trait>
+    </TraitSet>
+  </ReferenceClinVarAssertion>
+  <ClinVarAssertion ID="36047">
+    <ClinVarSubmissionID localKey="147730.0001_INTERLEUKIN 2 RECEPTOR, ALPHA, DEFICIENCY OF" title="IL2RA, 4-BP DEL, NT60_INTERLEUKIN 2 RECEPTOR, ALPHA, DEFICIENCY OF" submitterDate="2012-11-28" submitter="OMIM"/>
+    <ClinVarAccession Acc="SCV000036047" Version="1" Type="SCV" OrgID="3" DateUpdated="2014-04-19"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2012-11-28">
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ExternalID DB="OMIM" Type="Allelic variant" ID="147730.0001"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species>human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData>
+        <Attribute Type="Description">In a patient with severe immunodeficiency (606367), who was subsequently treated with allogeneic bone marrow transplantation, Sharfe et al. (1997) found homozygosity for a 4-bp deletion in the IL2RA gene at nucleotides 60 to 64, resulting in a translational frameshift. Translation proceeded for 20 amino acids before the deletion and resultant frameshift occurred, effectively ablating CD25 expression. A further 25 irrelevant amino acids were added before termination. The homozygous nature of the mutation was confirmed by analysis of sequences from the parents, who both demonstrated a normal and a 4-bp-deleted allele.</Attribute>
+        <Citation>
+          <ID Source="PubMed">9096364</ID>
+        </Citation>
+        <XRef DB="OMIM" Type="MIM" ID="606367"/>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant">
+      <Measure Type="Variation">
+        <Name>
+          <ElementValue Type="Preferred">IL2RA, 4-BP DEL, NT60</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="NonHGVS">4-BP DEL, NT60</Attribute>
+        </AttributeSet>
+        <MeasureRelationship Type="variant in gene">
+          <Symbol>
+            <ElementValue Type="Preferred">IL2RA</ElementValue>
+          </Symbol>
+        </MeasureRelationship>
+        <XRef DB="OMIM" Type="Allelic variant" ID="147730.0001"/>
+      </Measure>
+    </MeasureSet>
+    <TraitSet Type="Disease">
+      <Trait Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">INTERLEUKIN 2 RECEPTOR, ALPHA, DEFICIENCY OF</ElementValue>
+        </Name>
+      </Trait>
+    </TraitSet>
+  </ClinVarAssertion>
+</ClinVarSet>
+
+<ClinVarSet ID="2376654">
+  <RecordStatus>current</RecordStatus>
+  <Title>IL1B, -31C-T AND Gastric cancer susceptibility after h. pylori infection</Title>
+  <ReferenceClinVarAssertion DateCreated="2012-08-13" DateLastUpdated="2014-05-30" ID="73286">
+    <ClinVarAccession Acc="RCV000015783" Version="24" Type="RCV" DateUpdated="2014-05-30"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2013-08-14">
+      <ReviewStatus>classified by single submitter</ReviewStatus>
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species TaxonomyId="9606">human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData ID="2047619">
+        <Attribute Type="Description">A C-to-T transition at the -31 site involves the TATA sequence in the IL1B promoter. Using electrophoretic mobility shift analysis to assess DNA binding in vitro, El-Omar et al. (2000) found that the IL1B -31T allele was associated with a 5-fold increase in DNA binding after lipopolysaccharide stimulation. Individuals carrying the IL1B -31 T allele are at higher risk of hypochlorhydria and of gastric cancer (137215) after H. pylori infection.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">10746728</ID>
+        </Citation>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant" ID="14671">
+      <Measure Type="single nucleotide variant" ID="29710">
+        <Name>
+          <ElementValue Type="preferred name">IL1B, -31C-T</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="nucleotide change">-31C-T</Attribute>
+          <XRef Type="Allelic variant" ID="147720.0001" DB="OMIM"/>
+        </AttributeSet>
+        <CytogeneticLocation>2q14</CytogeneticLocation>
+        <MeasureRelationship Type="variant in gene">
+          <Name>
+            <ElementValue Type="Preferred">interleukin 1, beta</ElementValue>
+          </Name>
+          <Symbol>
+            <ElementValue Type="Preferred">IL1B</ElementValue>
+          </Symbol>
+          <SequenceLocation Assembly="GRCh37" Chr="2" Accession="NC_000002.11" start="113587336" stop="113594355" Strand="-"/>
+          <SequenceLocation Assembly="GRCh38" Chr="2" Accession="NC_000002.12" start="112829750" stop="112836778" Strand="-"/>
+          <XRef ID="3553" DB="Gene"/>
+          <XRef Type="MIM" ID="147720" DB="OMIM"/>
+        </MeasureRelationship>
+        <XRef Type="Allelic variant" ID="147720.0001" DB="OMIM"/>
+      </Measure>
+      <Name>
+        <ElementValue Type="preferred name">IL1B, -31C-T</ElementValue>
+      </Name>
+    </MeasureSet>
+    <TraitSet Type="Disease" ID="4054">
+      <Trait ID="11382" Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">Gastric cancer susceptibility after h. pylori infection</ElementValue>
+        </Name>
+      </Trait>
+    </TraitSet>
+  </ReferenceClinVarAssertion>
+  <ClinVarAssertion ID="36050">
+    <ClinVarSubmissionID localKey="147720.0001_GASTRIC CANCER SUSCEPTIBILITY AFTER H. PYLORI INFECTION" title="IL1B, -31C-T_GASTRIC CANCER SUSCEPTIBILITY AFTER H. PYLORI INFECTION" submitterDate="2013-05-06" submitter="OMIM"/>
+    <ClinVarAccession Acc="SCV000036050" Version="1" Type="SCV" OrgID="3" DateUpdated="2014-04-19"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2013-08-14">
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ExternalID DB="OMIM" Type="Allelic variant" ID="147720.0001"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species>human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData>
+        <Attribute Type="Description">A C-to-T transition at the -31 site involves the TATA sequence in the IL1B promoter. Using electrophoretic mobility shift analysis to assess DNA binding in vitro, El-Omar et al. (2000) found that the IL1B -31T allele was associated with a 5-fold increase in DNA binding after lipopolysaccharide stimulation. Individuals carrying the IL1B -31 T allele are at higher risk of hypochlorhydria and of gastric cancer (137215) after H. pylori infection.</Attribute>
+        <Citation>
+          <ID Source="PubMed">10746728</ID>
+        </Citation>
+        <XRef DB="OMIM" Type="MIM" ID="137215"/>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant">
+      <Measure Type="Variation">
+        <Name>
+          <ElementValue Type="Preferred">IL1B, -31C-T</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="NonHGVS">-31C-T</Attribute>
+        </AttributeSet>
+        <MeasureRelationship Type="variant in gene">
+          <Symbol>
+            <ElementValue Type="Preferred">IL1B</ElementValue>
+          </Symbol>
+        </MeasureRelationship>
+        <XRef DB="OMIM" Type="Allelic variant" ID="147720.0001"/>
+      </Measure>
+    </MeasureSet>
+    <TraitSet Type="Disease">
+      <Trait Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">GASTRIC CANCER SUSCEPTIBILITY AFTER H. PYLORI INFECTION</ElementValue>
+        </Name>
+      </Trait>
+    </TraitSet>
+  </ClinVarAssertion>
+</ClinVarSet>
+
+<ClinVarSet ID="2376655">
+  <RecordStatus>current</RecordStatus>
+  <Title>IL13, -1112C-T AND Asthma, susceptibility to</Title>
+  <ReferenceClinVarAssertion DateCreated="2012-08-13" DateLastUpdated="2014-05-30" ID="73287">
+    <ClinVarAccession Acc="RCV000015784" Version="1" Type="RCV" DateUpdated="2014-05-30"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2011-04-27">
+      <ReviewStatus>classified by single submitter</ReviewStatus>
+      <Description>risk factor</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species TaxonomyId="9606">human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData ID="2023709">
+        <Attribute Type="Description">Howard et al. (2001) reported that the -1112C-T promoter variant, which they referred to as -1111C-T, of the IL13 gene contributes significantly to bronchial hyperresponsiveness and asthma susceptibility (600807) but not to total serum IgE levels. In studies of Dutch families ascertained through a proband with asthma, Howard et al. (2002) found significant associations of atopy and asthma-related phenotypes with several IL4R (147781) polymorphisms, including S503P (147781.0003), and total serum IgE levels. A significant gene-gene interaction between S503P in IL4RA and the -1111 promoter variation in IL13 was detected. Individuals with the risk genotype for both genes were at almost 5 times greater risk for the development of asthma compared to individuals with both nonrisk genotypes. The data suggested that variations in IL4R contribute to elevated total serum IgE levels and that interaction between IL4R and IL13 markedly increases an individual's susceptibility to asthma.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">11588017</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">11709756</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="2023709">
+        <Attribute Type="Description">He et al. (2003) noted that this polymorphism is referred to as -1112C-T relative to the transcription start site, but it has also been referred to as -1055C-T and -1111C-T.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">12847555</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="2023709">
+        <Attribute Type="Description">Infection with cercaria of the trematode parasite, Schistosoma hematobium, results in male/female worm pairs inhabiting the vesical venous plexus and producing 300 to 3,000 eggs daily. These eggs may lodge in bladder and ureter walls, causing sometimes fatal obstructive nephropathy. Other eggs pass through blood-tinged urine and may infect host aquatic snails, which eventually shed infectious cercaria. Resistance to infection, but not disease, is associated with Th2 immunity. Susceptibility to Schistosoma infection is controlled by a locus that includes IL4, IL5, and IL13 (see 181460). Kouriba et al. (2005) evaluated polymorphisms in these genes in families in 2 Dogon villages in Mali where S. hematobium infection is endemic. They identified 2 SNPs in the IL13 promoter, -1055C/T (147683.0001) and -591A/G, and found that the -1055C and -591A alleles were significantly transmitted to children with the highest infectious burden, as measured by urinary egg counts and serum worm antigen levels. Protection against S. hematobiuma infection was associated with the -1055TT genotype, which Kouriba et al. (2005) noted also aggravates asthma.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">15879126</ID>
+        </Citation>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant" ID="14672">
+      <Measure Type="single nucleotide variant" ID="29711">
+        <Name>
+          <ElementValue Type="preferred name">IL13, -1112C-T</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="nucleotide change">-1112C-T</Attribute>
+          <XRef Type="Allelic variant" ID="147683.0001" DB="OMIM"/>
+        </AttributeSet>
+        <CytogeneticLocation>5q31</CytogeneticLocation>
+        <MeasureRelationship Type="variant in gene">
+          <Name>
+            <ElementValue Type="Preferred">interleukin 13</ElementValue>
+          </Name>
+          <Symbol>
+            <ElementValue Type="Preferred">IL13</ElementValue>
+          </Symbol>
+          <SequenceLocation Assembly="GRCh37" Chr="5" Accession="NC_000005.9" start="131993864" stop="131996800" Strand="+"/>
+          <SequenceLocation Assembly="GRCh38" Chr="5" Accession="NC_000005.10" start="132658172" stop="132661108" Strand="+"/>
+          <XRef ID="3596" DB="Gene"/>
+          <XRef Type="MIM" ID="147683" DB="OMIM"/>
+        </MeasureRelationship>
+        <XRef Type="Allelic variant" ID="147683.0001" DB="OMIM"/>
+      </Measure>
+      <Name>
+        <ElementValue Type="preferred name">IL13, -1112C-T</ElementValue>
+      </Name>
+    </MeasureSet>
+    <TraitSet Type="Disease" ID="1176">
+      <Trait ID="456" Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">Asthma, susceptibility to</ElementValue>
+          <XRef ID="Asthma/633" DB="Genetic Alliance"/>
+        </Name>
+        <Name>
+          <ElementValue Type="Alternate">ASTHMA, BRONCHIAL</ElementValue>
+          <XRef Type="MIM" ID="600807" DB="OMIM"/>
+        </Name>
+        <Name>
+          <ElementValue Type="Alternate">ASTHMA-RELATED TRAITS, SUSCEPTIBILITY TO</ElementValue>
+          <XRef Type="MIM" ID="600807" DB="OMIM"/>
+        </Name>
+        <Name>
+          <ElementValue Type="Alternate"> Asthma, susceptibility to</ElementValue>
+          <XRef ID="GTR000503198" DB="Laboratory for Molecular Diagnostics,Center for Nephrology and Metabolic Disorders"/>
+        </Name>
+        <XRef ID="C1869116" DB="MedGen"/>
+        <XRef Type="MIM" ID="600807" DB="OMIM"/>
+      </Trait>
+    </TraitSet>
+  </ReferenceClinVarAssertion>
+  <ClinVarAssertion ID="36051">
+    <ClinVarSubmissionID localKey="147683.0001_ASTHMA, SUSCEPTIBILITY TO" title="IL13, -1112C-T_ASTHMA, SUSCEPTIBILITY TO" submitterDate="2011-04-27" submitter="OMIM"/>
+    <ClinVarAccession Acc="SCV000036051" Version="1" Type="SCV" OrgID="3" DateUpdated="2014-04-19"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2011-04-27">
+      <Description>risk factor</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ExternalID DB="OMIM" Type="Allelic variant" ID="147683.0001"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species>human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData>
+        <Attribute Type="Description">Howard et al. (2001) reported that the -1112C-T promoter variant, which they referred to as -1111C-T, of the IL13 gene contributes significantly to bronchial hyperresponsiveness and asthma susceptibility (600807) but not to total serum IgE levels. In studies of Dutch families ascertained through a proband with asthma, Howard et al. (2002) found significant associations of atopy and asthma-related phenotypes with several IL4R (147781) polymorphisms, including S503P (147781.0003), and total serum IgE levels. A significant gene-gene interaction between S503P in IL4RA and the -1111 promoter variation in IL13 was detected. Individuals with the risk genotype for both genes were at almost 5 times greater risk for the development of asthma compared to individuals with both nonrisk genotypes. The data suggested that variations in IL4R contribute to elevated total serum IgE levels and that interaction between IL4R and IL13 markedly increases an individual's susceptibility to asthma.</Attribute>
+        <Citation>
+          <ID Source="PubMed">11588017</ID>
+        </Citation>
+        <Citation>
+          <ID Source="PubMed">11709756</ID>
+        </Citation>
+        <XRef DB="OMIM" Type="MIM" ID="600807"/>
+        <XRef DB="OMIM" Type="MIM" ID="147781"/>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">He et al. (2003) noted that this polymorphism is referred to as -1112C-T relative to the transcription start site, but it has also been referred to as -1055C-T and -1111C-T.</Attribute>
+        <Citation>
+          <ID Source="PubMed">12847555</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">Infection with cercaria of the trematode parasite, Schistosoma hematobium, results in male/female worm pairs inhabiting the vesical venous plexus and producing 300 to 3,000 eggs daily. These eggs may lodge in bladder and ureter walls, causing sometimes fatal obstructive nephropathy. Other eggs pass through blood-tinged urine and may infect host aquatic snails, which eventually shed infectious cercaria. Resistance to infection, but not disease, is associated with Th2 immunity. Susceptibility to Schistosoma infection is controlled by a locus that includes IL4, IL5, and IL13 (see 181460). Kouriba et al. (2005) evaluated polymorphisms in these genes in families in 2 Dogon villages in Mali where S. hematobium infection is endemic. They identified 2 SNPs in the IL13 promoter, -1055C/T (147683.0001) and -591A/G, and found that the -1055C and -591A alleles were significantly transmitted to children with the highest infectious burden, as measured by urinary egg counts and serum worm antigen levels. Protection against S. hematobiuma infection was associated with the -1055TT genotype, which Kouriba et al. (2005) noted also aggravates asthma.</Attribute>
+        <Citation>
+          <ID Source="PubMed">15879126</ID>
+        </Citation>
+        <XRef DB="OMIM" Type="MIM" ID="181460"/>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant">
+      <Measure Type="Variation">
+        <Name>
+          <ElementValue Type="Preferred">IL13, -1112C-T</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="NonHGVS">-1112C-T</Attribute>
+        </AttributeSet>
+        <MeasureRelationship Type="variant in gene">
+          <Symbol>
+            <ElementValue Type="Preferred">IL13</ElementValue>
+          </Symbol>
+        </MeasureRelationship>
+        <XRef DB="OMIM" Type="Allelic variant" ID="147683.0001"/>
+      </Measure>
+    </MeasureSet>
+    <TraitSet Type="Disease">
+      <Trait Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">ASTHMA, SUSCEPTIBILITY TO</ElementValue>
+        </Name>
+      </Trait>
+    </TraitSet>
+  </ClinVarAssertion>
+</ClinVarSet>
+
+<ClinVarSet ID="2376658">
+  <RecordStatus>current</RecordStatus>
+  <Title>IL1RN, IVS2, 86-BP DUP AND Gastric cancer susceptibility after h. pylori infection</Title>
+  <ReferenceClinVarAssertion DateCreated="2012-08-13" DateLastUpdated="2014-05-30" ID="73290">
+    <ClinVarAccession Acc="RCV000015787" Version="24" Type="RCV" DateUpdated="2014-05-30"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2013-07-08">
+      <ReviewStatus>classified by single submitter</ReviewStatus>
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species TaxonomyId="9606">human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData ID="2012652">
+        <Attribute Type="Description">Tarlow et al. (1993) showed that the polymorphism in intron 2 of the IL1RN gene is caused by variable copy number of an 86-bp sequence. IL1RN has 5 alleles, comprising between 2 and 6 repeats of the 86-bp sequence; the 2-repeat allele is designated 'IL1RN*2.'</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">8500797</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="2012652">
+        <Attribute Type="Description">Blakemore et al. (1996) analyzed the IL1RN*2 allele in 128 patients with type 1 (IDDM; 222100) and 125 patients with type 2 diabetes (NIDDM; 125853), and found significant association (corrected p less than 0.0012) between IL1RN*2 and diabetic nephropathy (MVCD4, 612628). The association was significant in both types of diabetes, but the observed increase was highest in NIDDM, rising to double the control levels. Noting that the IL1RN*2 allele had been found to be associated with more severe clinical outcome in several chronic inflammatory diseases, the authors suggested that IL1RN*2 might be a novel genetic marker of severity of inflammatory complications of disease rather than a marker of disease susceptibility.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">8786086</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="2012652">
+        <Attribute Type="Description">Schrijver et al. (1999) found that patients with multiple sclerosis (126200) who were carriers of the IL1RN*2 allele and noncarriers of the IL1B*2 allele had a higher rate of progression than those with other allele combinations.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">10025794</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="2012652">
+        <Attribute Type="Description">IL1RN*2 is associated with enhanced IL1-beta (147720) production in vitro. To determine whether these polymorphisms are important with respect to the different outcomes of H. pylori infections, El-Omar et al. (2000) studied their effects on gastric physiology in healthy subjects. IL1RN*2 homozygotes were at increased risk of hypochlorhydria, although risk among IL1RN*2 heterozygotes was not significantly increased. IL1RN*2 homozygotes also had an increased risk of gastric cancer (137215).</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">10746728</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="2012652">
+        <Attribute Type="Description">Langdahl et al. (2000) found that the 86-bp repeat polymorphism in IL1RN is associated with increased risk of osteoporotic fractures.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">10750554</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="2012652">
+        <Attribute Type="Description">Lee et al. (2004) analyzed the IL1RN*2 polymorphism and the -511C-T polymorphism in the IL1B gene (147720) in 95 Korean patients with type 2 diabetes and nephropathy and 126 patients with type 2 diabetes and normal renal function. They found that both the -511T allele ('IL1B2') and the IL1RN*2 allele were more frequent in patients with nephropathy than controls (p less than 0.05 for both). The carriage rate of IL1RN*2 was significantly associated with an increased risk of kidney failure (odds ratio, 3.19), and the risk of kidney failure was highest in those carrying both IL1RN*2 and IL1B2 (odds ratio, 3.90). Lee et al. (2004) concluded that the IL1B2 and IL1RN*2 genotypes of the IL1 cluster genes are associated with diabetic nephropathy in Korean patients with type 2 diabetes.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">15286433</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="2012652">
+        <Attribute Type="Description">Strandberg et al. (2006) found that among 1,068 18- to 20-year-old Swedish men enrolled in the Gothenburg Osteoporosis and Obesity Determinants (GOOD) study, carriers of the IL1RN*2 polymorphism with 2 repeats of the IL1RN VNTR polymorphism had increased total fat (P = 0.036), serum leptin (164160), and fat of trunk and arm as well as serum levels of IL1RN and IL1RN production ex vivo.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">16636119</ID>
+        </Citation>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant" ID="14674">
+      <Measure Type="Duplication" ID="29713">
+        <Name>
+          <ElementValue Type="preferred name">IL1RN, IVS2, 86-BP DUP</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="nucleotide change">IVS2, 86-BP DUP</Attribute>
+          <XRef Type="Allelic variant" ID="147679.0001" DB="OMIM"/>
+        </AttributeSet>
+        <CytogeneticLocation>2q14.2</CytogeneticLocation>
+        <MeasureRelationship Type="variant in gene">
+          <Name>
+            <ElementValue Type="Preferred">interleukin 1 receptor antagonist</ElementValue>
+          </Name>
+          <Symbol>
+            <ElementValue Type="Preferred">IL1RN</ElementValue>
+          </Symbol>
+          <SequenceLocation Assembly="GRCh37" Chr="2" Accession="NC_000002.11" start="113875469" stop="113891592" Strand="+"/>
+          <SequenceLocation Assembly="GRCh38" Chr="2" Accession="NC_000002.12" start="113117892" stop="113134015" Strand="+"/>
+          <XRef ID="3557" DB="Gene"/>
+          <XRef Type="MIM" ID="147679" DB="OMIM"/>
+        </MeasureRelationship>
+        <XRef Type="Allelic variant" ID="147679.0001" DB="OMIM"/>
+      </Measure>
+      <Name>
+        <ElementValue Type="preferred name">IL1RN, IVS2, 86-BP DUP</ElementValue>
+      </Name>
+    </MeasureSet>
+    <TraitSet Type="Disease" ID="4054">
+      <Trait ID="11382" Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">Gastric cancer susceptibility after h. pylori infection</ElementValue>
+        </Name>
+      </Trait>
+    </TraitSet>
+  </ReferenceClinVarAssertion>
+  <ClinVarAssertion ID="36054">
+    <ClinVarSubmissionID localKey="147679.0001_GASTRIC CANCER SUSCEPTIBILITY AFTER H. PYLORI INFECTION" title="IL1RN, IVS2, 86-BP DUP_GASTRIC CANCER SUSCEPTIBILITY AFTER H. PYLORI INFECTION" submitterDate="2013-04-01" submitter="OMIM"/>
+    <ClinVarAccession Acc="SCV000036054" Version="1" Type="SCV" OrgID="3" DateUpdated="2014-04-19"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2013-07-08">
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ExternalID DB="OMIM" Type="Allelic variant" ID="147679.0001"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species>human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData>
+        <Attribute Type="Description">Tarlow et al. (1993) showed that the polymorphism in intron 2 of the IL1RN gene is caused by variable copy number of an 86-bp sequence. IL1RN has 5 alleles, comprising between 2 and 6 repeats of the 86-bp sequence; the 2-repeat allele is designated 'IL1RN*2.'</Attribute>
+        <Citation>
+          <ID Source="PubMed">8500797</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">Blakemore et al. (1996) analyzed the IL1RN*2 allele in 128 patients with type 1 (IDDM; 222100) and 125 patients with type 2 diabetes (NIDDM; 125853), and found significant association (corrected p less than 0.0012) between IL1RN*2 and diabetic nephropathy (MVCD4, 612628). The association was significant in both types of diabetes, but the observed increase was highest in NIDDM, rising to double the control levels. Noting that the IL1RN*2 allele had been found to be associated with more severe clinical outcome in several chronic inflammatory diseases, the authors suggested that IL1RN*2 might be a novel genetic marker of severity of inflammatory complications of disease rather than a marker of disease susceptibility.</Attribute>
+        <Citation>
+          <ID Source="PubMed">8786086</ID>
+        </Citation>
+        <XRef DB="OMIM" Type="MIM" ID="222100"/>
+        <XRef DB="OMIM" Type="MIM" ID="125853"/>
+        <XRef DB="OMIM" Type="MIM" ID="612628"/>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">Schrijver et al. (1999) found that patients with multiple sclerosis (126200) who were carriers of the IL1RN*2 allele and noncarriers of the IL1B*2 allele had a higher rate of progression than those with other allele combinations.</Attribute>
+        <Citation>
+          <ID Source="PubMed">10025794</ID>
+        </Citation>
+        <XRef DB="OMIM" Type="MIM" ID="126200"/>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">IL1RN*2 is associated with enhanced IL1-beta (147720) production in vitro. To determine whether these polymorphisms are important with respect to the different outcomes of H. pylori infections, El-Omar et al. (2000) studied their effects on gastric physiology in healthy subjects. IL1RN*2 homozygotes were at increased risk of hypochlorhydria, although risk among IL1RN*2 heterozygotes was not significantly increased. IL1RN*2 homozygotes also had an increased risk of gastric cancer (137215).</Attribute>
+        <Citation>
+          <ID Source="PubMed">10746728</ID>
+        </Citation>
+        <XRef DB="OMIM" Type="MIM" ID="147720"/>
+        <XRef DB="OMIM" Type="MIM" ID="137215"/>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">Langdahl et al. (2000) found that the 86-bp repeat polymorphism in IL1RN is associated with increased risk of osteoporotic fractures.</Attribute>
+        <Citation>
+          <ID Source="PubMed">10750554</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">Lee et al. (2004) analyzed the IL1RN*2 polymorphism and the -511C-T polymorphism in the IL1B gene (147720) in 95 Korean patients with type 2 diabetes and nephropathy and 126 patients with type 2 diabetes and normal renal function. They found that both the -511T allele ('IL1B2') and the IL1RN*2 allele were more frequent in patients with nephropathy than controls (p less than 0.05 for both). The carriage rate of IL1RN*2 was significantly associated with an increased risk of kidney failure (odds ratio, 3.19), and the risk of kidney failure was highest in those carrying both IL1RN*2 and IL1B2 (odds ratio, 3.90). Lee et al. (2004) concluded that the IL1B2 and IL1RN*2 genotypes of the IL1 cluster genes are associated with diabetic nephropathy in Korean patients with type 2 diabetes.</Attribute>
+        <Citation>
+          <ID Source="PubMed">15286433</ID>
+        </Citation>
+        <XRef DB="OMIM" Type="MIM" ID="147720"/>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">Strandberg et al. (2006) found that among 1,068 18- to 20-year-old Swedish men enrolled in the Gothenburg Osteoporosis and Obesity Determinants (GOOD) study, carriers of the IL1RN*2 polymorphism with 2 repeats of the IL1RN VNTR polymorphism had increased total fat (P = 0.036), serum leptin (164160), and fat of trunk and arm as well as serum levels of IL1RN and IL1RN production ex vivo.</Attribute>
+        <Citation>
+          <ID Source="PubMed">16636119</ID>
+        </Citation>
+        <XRef DB="OMIM" Type="MIM" ID="164160"/>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant">
+      <Measure Type="Variation">
+        <Name>
+          <ElementValue Type="Preferred">IL1RN, IVS2, 86-BP DUP</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="NonHGVS">IVS2, 86-BP DUP</Attribute>
+        </AttributeSet>
+        <MeasureRelationship Type="variant in gene">
+          <Symbol>
+            <ElementValue Type="Preferred">IL1RN</ElementValue>
+          </Symbol>
+        </MeasureRelationship>
+        <XRef DB="OMIM" Type="Allelic variant" ID="147679.0001"/>
+      </Measure>
+    </MeasureSet>
+    <TraitSet Type="Disease">
+      <Trait Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">GASTRIC CANCER SUSCEPTIBILITY AFTER H. PYLORI INFECTION</ElementValue>
+        </Name>
+      </Trait>
+    </TraitSet>
+  </ClinVarAssertion>
+</ClinVarSet>
+
+</ReleaseSet>

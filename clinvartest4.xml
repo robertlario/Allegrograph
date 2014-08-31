@@ -1,0 +1,492 @@
+<ReleaseSet>
+<ClinVarSet ID="2376662">
+  <RecordStatus>current</RecordStatus>
+  <Title>IL1RN, 2-BP DEL, 156CA AND Osteomyelitis, sterile multifocal, with periostitis and pustulosis</Title>
+  <ReferenceClinVarAssertion DateCreated="2012-08-13" DateLastUpdated="2014-05-30" ID="73294">
+    <ClinVarAccession Acc="RCV000015791" Version="20" Type="RCV" DateUpdated="2014-05-30"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2013-07-08">
+      <ReviewStatus>classified by single submitter</ReviewStatus>
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species TaxonomyId="9606">human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData ID="2047621">
+        <Attribute Type="Description">In a 13-month-old male from a Newfoundland family who had neonatal onset of sterile multifocal osteomyelitis, periostitis, and pustulosis (612852), Aksentijevich et al. (2009) identified homozygosity for a 2-bp del (156delCA), resulting in a frameshift followed by the incorporation of 24 aberrant amino acids and a termination codon. Quantitative PCR of whole blood from the patient revealed greatly diminished IL1RN mRNA levels compared to controls. The unaffected parents were heterozygous for the mutation, which was not found in 364 Caucasian controls from New York; however, 2 carriers of the 2-bp deletion were identified in a panel of 555 controls from Newfoundland, suggesting a founder effect. The patient responded rapidly to treatment with human recombinant IL1RN anakinra.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">19494218</ID>
+        </Citation>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant" ID="14677">
+      <Measure Type="Deletion" ID="29716">
+        <Name>
+          <ElementValue Type="preferred name">IL1RN, 2-BP DEL, 156CA</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="nucleotide change">2-BP DEL, 156CA</Attribute>
+          <XRef Type="Allelic variant" ID="147679.0004" DB="OMIM"/>
+        </AttributeSet>
+        <CytogeneticLocation>2q14.2</CytogeneticLocation>
+        <MeasureRelationship Type="variant in gene">
+          <Name>
+            <ElementValue Type="Preferred">interleukin 1 receptor antagonist</ElementValue>
+          </Name>
+          <Symbol>
+            <ElementValue Type="Preferred">IL1RN</ElementValue>
+          </Symbol>
+          <SequenceLocation Assembly="GRCh37" Chr="2" Accession="NC_000002.11" start="113875469" stop="113891592" Strand="+"/>
+          <SequenceLocation Assembly="GRCh38" Chr="2" Accession="NC_000002.12" start="113117892" stop="113134015" Strand="+"/>
+          <XRef ID="3557" DB="Gene"/>
+          <XRef Type="MIM" ID="147679" DB="OMIM"/>
+        </MeasureRelationship>
+        <XRef Type="Allelic variant" ID="147679.0004" DB="OMIM"/>
+      </Measure>
+      <Name>
+        <ElementValue Type="preferred name">IL1RN, 2-BP DEL, 156CA</ElementValue>
+      </Name>
+    </MeasureSet>
+    <TraitSet Type="Disease" ID="4057">
+      <Trait ID="6767" Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">Osteomyelitis, sterile multifocal, with periostitis and pustulosis</ElementValue>
+          <XRef ID="Osteomyelitis%2C+sterile+multifocal%2C+with+periostitis+and+pustulosis/9058" DB="Genetic Alliance"/>
+        </Name>
+        <Symbol>
+          <ElementValue Type="Preferred">OMPP</ElementValue>
+          <XRef Type="MIM" ID="612852" DB="OMIM"/>
+        </Symbol>
+        <Symbol>
+          <ElementValue Type="Alternate">DIRA</ElementValue>
+          <XRef Type="MIM" ID="612852" DB="OMIM"/>
+        </Symbol>
+        <AttributeSet>
+          <Attribute Type="age of onset">Neonatal/infancy</Attribute>
+          <XRef ID="210115" DB="Orphanet"/>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="prevalence">&lt;1 / 1 000 000</Attribute>
+          <XRef ID="210115" DB="Orphanet"/>
+        </AttributeSet>
+        <XRef ID="C2748507" DB="MedGen"/>
+        <XRef ID="210115" DB="Orphanet"/>
+        <XRef Type="MIM" ID="612852" DB="OMIM"/>
+      </Trait>
+    </TraitSet>
+  </ReferenceClinVarAssertion>
+  <ClinVarAssertion ID="36058">
+    <ClinVarSubmissionID localKey="147679.0004_OSTEOMYELITIS, STERILE MULTIFOCAL, WITH PERIOSTITIS AND PUSTULOSIS" title="IL1RN, 2-BP DEL, 156CA_OSTEOMYELITIS, STERILE MULTIFOCAL, WITH PERIOSTITIS AND PUSTULOSIS" submitterDate="2013-04-01" submitter="OMIM"/>
+    <ClinVarAccession Acc="SCV000036058" Version="1" Type="SCV" OrgID="3" DateUpdated="2014-04-19"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2013-07-08">
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ExternalID DB="OMIM" Type="Allelic variant" ID="147679.0004"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species>human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData>
+        <Attribute Type="Description">In a 13-month-old male from a Newfoundland family who had neonatal onset of sterile multifocal osteomyelitis, periostitis, and pustulosis (612852), Aksentijevich et al. (2009) identified homozygosity for a 2-bp del (156delCA), resulting in a frameshift followed by the incorporation of 24 aberrant amino acids and a termination codon. Quantitative PCR of whole blood from the patient revealed greatly diminished IL1RN mRNA levels compared to controls. The unaffected parents were heterozygous for the mutation, which was not found in 364 Caucasian controls from New York; however, 2 carriers of the 2-bp deletion were identified in a panel of 555 controls from Newfoundland, suggesting a founder effect. The patient responded rapidly to treatment with human recombinant IL1RN anakinra.</Attribute>
+        <Citation>
+          <ID Source="PubMed">19494218</ID>
+        </Citation>
+        <XRef DB="OMIM" Type="MIM" ID="612852"/>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant">
+      <Measure Type="Variation">
+        <Name>
+          <ElementValue Type="Preferred">IL1RN, 2-BP DEL, 156CA</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="NonHGVS">2-BP DEL, 156CA</Attribute>
+        </AttributeSet>
+        <MeasureRelationship Type="variant in gene">
+          <Symbol>
+            <ElementValue Type="Preferred">IL1RN</ElementValue>
+          </Symbol>
+        </MeasureRelationship>
+        <XRef DB="OMIM" Type="Allelic variant" ID="147679.0004"/>
+      </Measure>
+    </MeasureSet>
+    <TraitSet Type="Disease">
+      <Trait Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">OSTEOMYELITIS, STERILE MULTIFOCAL, WITH PERIOSTITIS AND PUSTULOSIS</ElementValue>
+        </Name>
+      </Trait>
+    </TraitSet>
+  </ClinVarAssertion>
+</ClinVarSet>
+
+<ClinVarSet ID="2376663">
+  <RecordStatus>current</RecordStatus>
+  <Title>IL1RN, 175-KB DEL AND Osteomyelitis, sterile multifocal, with periostitis and pustulosis</Title>
+  <ReferenceClinVarAssertion DateCreated="2012-08-13" DateLastUpdated="2014-05-30" ID="73295">
+    <ClinVarAccession Acc="RCV000015792" Version="25" Type="RCV" DateUpdated="2014-05-30"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2013-07-08">
+      <ReviewStatus>classified by single submitter</ReviewStatus>
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species TaxonomyId="9606">human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData ID="2023711">
+        <Attribute Type="Description">In a child from a family originating from Puerto Rico, who had neonatal onset of sterile multifocal osteomyelitis, periostitis, and pustulosis (612852), Aksentijevich et al. (2009) identified homozygosity for a 175-kb deletion that encompassed 6 IL1-related genes:  IL1RN, IL1F9 (605542), IL1F6 (605509), IL1F8 (605508), IL1F5 (605507), and IL1F10. Quantitative PCR of whole blood from the patient revealed complete absence of IL1RN mRNA. His unaffected parents and sister were heterozygous for the deletion, which was also found in 3 unrelated carriers from a panel of 119 geographically matched controls, suggesting a founder effect. The patient responded rapidly to treatment with human recombinant IL1RN anakinra.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">19494218</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="2023711">
+        <Attribute Type="Description">In an 18-month-old male infant with neonatal onset of pustular rash, osteopenia, lytic bone lesions, respiratory insufficiency, and thrombosis, Reddy et al. (2009) identified homozygosity for the 175-kb deletion. The unaffected parents were heterozygous for the deletion. Anakinra treatment completely resolved the symptoms and lesions.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">19494219</ID>
+        </Citation>
+      </ObservedData>
+      <ObservedData ID="2023711">
+        <Attribute Type="Description">In a child from a family originating from Puerto Rico, who had neonatal onset of sterile multifocal osteomyelitis, periostitis, and pustulosis (612852), Aksentijevich et al. (2009) identified homozygosity for a 175-kb deletion that encompassed 6 IL1-related genes:  IL1RN, IL1F9 (605542), IL1F6 (605509), IL1F8 (605508), IL1F5 (605507), and IL1F10 (615296). Quantitative PCR of whole blood from the patient revealed complete absence of IL1RN mRNA. His unaffected parents and sister were heterozygous for the deletion, which was also found in 3 unrelated carriers from a panel of 119 geographically matched controls, suggesting a founder effect. The patient responded rapidly to treatment with human recombinant IL1RN anakinra.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">19494218</ID>
+        </Citation>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant" ID="14678">
+      <Measure Type="Deletion" ID="29717">
+        <Name>
+          <ElementValue Type="preferred name">IL1RN, 175-KB DEL</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="nucleotide change">175-KB DEL</Attribute>
+          <XRef Type="Allelic variant" ID="147679.0005" DB="OMIM"/>
+        </AttributeSet>
+        <CytogeneticLocation>2q14.2</CytogeneticLocation>
+        <MeasureRelationship Type="variant in gene">
+          <Name>
+            <ElementValue Type="Preferred">interleukin 1 receptor antagonist</ElementValue>
+          </Name>
+          <Symbol>
+            <ElementValue Type="Preferred">IL1RN</ElementValue>
+          </Symbol>
+          <SequenceLocation Assembly="GRCh37" Chr="2" Accession="NC_000002.11" start="113875469" stop="113891592" Strand="+"/>
+          <SequenceLocation Assembly="GRCh38" Chr="2" Accession="NC_000002.12" start="113117892" stop="113134015" Strand="+"/>
+          <XRef ID="3557" DB="Gene"/>
+          <XRef Type="MIM" ID="147679" DB="OMIM"/>
+        </MeasureRelationship>
+        <XRef Type="Allelic variant" ID="147679.0005" DB="OMIM"/>
+      </Measure>
+      <Name>
+        <ElementValue Type="preferred name">IL1RN, 175-KB DEL</ElementValue>
+      </Name>
+    </MeasureSet>
+    <TraitSet Type="Disease" ID="4057">
+      <Trait ID="6767" Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">Osteomyelitis, sterile multifocal, with periostitis and pustulosis</ElementValue>
+          <XRef ID="Osteomyelitis%2C+sterile+multifocal%2C+with+periostitis+and+pustulosis/9058" DB="Genetic Alliance"/>
+        </Name>
+        <Symbol>
+          <ElementValue Type="Preferred">OMPP</ElementValue>
+          <XRef Type="MIM" ID="612852" DB="OMIM"/>
+        </Symbol>
+        <Symbol>
+          <ElementValue Type="Alternate">DIRA</ElementValue>
+          <XRef Type="MIM" ID="612852" DB="OMIM"/>
+        </Symbol>
+        <AttributeSet>
+          <Attribute Type="age of onset">Neonatal/infancy</Attribute>
+          <XRef ID="210115" DB="Orphanet"/>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="prevalence">&lt;1 / 1 000 000</Attribute>
+          <XRef ID="210115" DB="Orphanet"/>
+        </AttributeSet>
+        <XRef ID="C2748507" DB="MedGen"/>
+        <XRef ID="210115" DB="Orphanet"/>
+        <XRef Type="MIM" ID="612852" DB="OMIM"/>
+      </Trait>
+    </TraitSet>
+  </ReferenceClinVarAssertion>
+  <ClinVarAssertion ID="36059">
+    <ClinVarSubmissionID localKey="147679.0005_OSTEOMYELITIS, STERILE MULTIFOCAL, WITH PERIOSTITIS AND PUSTULOSIS" title="IL1RN, 175-KB DEL _OSTEOMYELITIS, STERILE MULTIFOCAL, WITH PERIOSTITIS AND PUSTULOSIS" submitterDate="2013-07-01" submitter="OMIM"/>
+    <ClinVarAccession Acc="SCV000036059" Version="2" Type="SCV" OrgID="3" DateUpdated="2014-04-19"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2013-07-08">
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ExternalID DB="OMIM" Type="Allelic variant" ID="147679.0005"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species>human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData>
+        <Attribute Type="Description">In a child from a family originating from Puerto Rico, who had neonatal onset of sterile multifocal osteomyelitis, periostitis, and pustulosis (612852), Aksentijevich et al. (2009) identified homozygosity for a 175-kb deletion that encompassed 6 IL1-related genes:  IL1RN, IL1F9 (605542), IL1F6 (605509), IL1F8 (605508), IL1F5 (605507), and IL1F10 (615296). Quantitative PCR of whole blood from the patient revealed complete absence of IL1RN mRNA. His unaffected parents and sister were heterozygous for the deletion, which was also found in 3 unrelated carriers from a panel of 119 geographically matched controls, suggesting a founder effect. The patient responded rapidly to treatment with human recombinant IL1RN anakinra.</Attribute>
+        <Citation>
+          <ID Source="PubMed">19494218</ID>
+        </Citation>
+        <XRef DB="OMIM" Type="MIM" ID="612852"/>
+        <XRef DB="OMIM" Type="MIM" ID="605542"/>
+        <XRef DB="OMIM" Type="MIM" ID="605509"/>
+        <XRef DB="OMIM" Type="MIM" ID="605508"/>
+        <XRef DB="OMIM" Type="MIM" ID="605507"/>
+        <XRef DB="OMIM" Type="MIM" ID="615296"/>
+      </ObservedData>
+      <ObservedData>
+        <Attribute Type="Description">In an 18-month-old male infant with neonatal onset of pustular rash, osteopenia, lytic bone lesions, respiratory insufficiency, and thrombosis, Reddy et al. (2009) identified homozygosity for the 175-kb deletion. The unaffected parents were heterozygous for the deletion. Anakinra treatment completely resolved the symptoms and lesions.</Attribute>
+        <Citation>
+          <ID Source="PubMed">19494219</ID>
+        </Citation>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant">
+      <Measure Type="Variation">
+        <Name>
+          <ElementValue Type="Preferred">IL1RN, 175-KB DEL </ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="NonHGVS">175-KB DEL</Attribute>
+        </AttributeSet>
+        <MeasureRelationship Type="variant in gene">
+          <Symbol>
+            <ElementValue Type="Preferred">IL1RN</ElementValue>
+          </Symbol>
+        </MeasureRelationship>
+        <XRef DB="OMIM" Type="Allelic variant" ID="147679.0005"/>
+      </Measure>
+    </MeasureSet>
+    <TraitSet Type="Disease">
+      <Trait Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">OSTEOMYELITIS, STERILE MULTIFOCAL, WITH PERIOSTITIS AND PUSTULOSIS</ElementValue>
+        </Name>
+      </Trait>
+    </TraitSet>
+  </ClinVarAssertion>
+</ClinVarSet>
+
+<ClinVarSet ID="2376664">
+  <RecordStatus>current</RecordStatus>
+  <Title>INSR:c.3104G&gt;T (p.Gly1035Val) AND Insulin-resistant diabetes mellitus AND acanthosis nigricans</Title>
+  <ReferenceClinVarAssertion DateCreated="2012-08-13" DateLastUpdated="2014-05-30" ID="73296">
+    <ClinVarAccession Acc="RCV000015793" Version="25" Type="RCV" DateUpdated="2014-05-30"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2013-10-01">
+      <ReviewStatus>classified by single submitter</ReviewStatus>
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species TaxonomyId="9606">human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData ID="2012188">
+        <Attribute Type="Description">In a young Japanese male with insulin-resistant diabetes mellitus and acanthosis nigricans (610549), in whom impaired tyrosine protein kinase activity had been demonstrated, Odawara et al. (1989) cloned a cDNA for the insulin receptor. One of this person's alleles had a mutation in which valine was substituted for glycine-996, the third glycine in the conserved gly-X-gly-X-X-gly motif in the putative binding site for adenosine triphosphate. Expression of the mutant receptor by transfection into Chinese hamster ovary cells confirmed that the mutation impairs tyrosine kinase activity. The presence of mutant receptors appeared to have negative effects on the activity of the normal receptor. Studies with kinase-deficient insulin receptors transfected into cultured cells show that such receptors function as dominant-negative mutations and suppress the function of endogenous insulin receptors (review by Kahn and Goldstein, 1989). In most other cases of insulin resistance, the mutation is expressed as a recessive. Yamamoto-Honda et al. (1990) studied the function of this mutant form of the insulin receptor.</Attribute>
+        <Citation Type="general">
+          <ID Source="PubMed">2662406</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">2203761</ID>
+        </Citation>
+        <Citation Type="general">
+          <ID Source="PubMed">2544998</ID>
+        </Citation>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant" ID="14679">
+      <Measure Type="single nucleotide variant" ID="29718">
+        <Name>
+          <ElementValue Type="Preferred">INSR:c.3104G&gt;T (p.Gly1035Val)</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="HGVS, coding, RefSeq" Change="c.3068G&gt;T">NM_001079817.1:c.3068G&gt;T</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="HGVS, coding, RefSeq" Change="c.3104G&gt;T">NM_000208.2:c.3104G&gt;T</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="HGVS, genomic, RefSeqGene" Change="g.173564G&gt;T">NG_008852.1:g.173564G&gt;T</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="HGVS, genomic, top level" Change="g.7125437C&gt;A">NC_000019.10:g.7125437C&gt;A</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="HGVS, genomic, top level, previous" Change="g.7125448C&gt;A">NC_000019.9:g.7125448C&gt;A</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="HGVS, protein, RefSeq" Change="p.Gly1023Val">NP_001073285.1:p.Gly1023Val</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="HGVS, protein, RefSeq" Change="p.Gly1035Val">NP_000199.2:p.Gly1035Val</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="MolecularConsequence">missense</Attribute>
+          <XRef ID="121913135" DB="dbSNP"/>
+          <XRef ID="SO:0001583" DB="Sequence Ontology"/>
+          <XRef ID="NM_000208.2:c.3104G&gt;T" DB="RefSeq"/>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="MolecularConsequence">missense</Attribute>
+          <XRef ID="121913135" DB="dbSNP"/>
+          <XRef ID="SO:0001583" DB="Sequence Ontology"/>
+          <XRef ID="NM_001079817.1:c.3068G&gt;T" DB="RefSeq"/>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="ProteinChange1LetterCode">G996V</Attribute>
+          <XRef Type="Allelic variant" ID="147670.0001" DB="OMIM"/>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="ProteinChange1LetterCode">G1023V</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="ProteinChange1LetterCode">G1035V</Attribute>
+        </AttributeSet>
+        <AttributeSet>
+          <Attribute Type="ProteinChange3LetterCode">GLY996VAL</Attribute>
+          <XRef Type="Allelic variant" ID="147670.0001" DB="OMIM"/>
+        </AttributeSet>
+        <CytogeneticLocation>19p13.2</CytogeneticLocation>
+        <SequenceLocation Assembly="GRCh37" Chr="19" Accession="NC_000019.9" start="7125448" stop="7125448" variantLength="1" referenceAllele="C" alternateAllele="A"/>
+        <SequenceLocation Assembly="GRCh38" Chr="19" Accession="NC_000019.10" start="7125437" stop="7125437" variantLength="1" referenceAllele="C" alternateAllele="A"/>
+        <MeasureRelationship Type="variant in gene">
+          <Name>
+            <ElementValue Type="Preferred">insulin receptor</ElementValue>
+          </Name>
+          <Symbol>
+            <ElementValue Type="Preferred">INSR</ElementValue>
+          </Symbol>
+          <SequenceLocation Assembly="GRCh37" Chr="19" Accession="NC_000019.9" start="7112265" stop="7294010" Strand="-"/>
+          <SequenceLocation Assembly="GRCh38" Chr="19" Accession="NC_000019.10" start="7112254" stop="7294327" Strand="-"/>
+          <XRef ID="3643" DB="Gene"/>
+          <XRef Type="MIM" ID="147670" DB="OMIM"/>
+        </MeasureRelationship>
+        <XRef Type="Allelic variant" ID="147670.0001" DB="OMIM"/>
+        <XRef Type="rs" ID="121913135" DB="dbSNP"/>
+      </Measure>
+      <Name>
+        <ElementValue Type="preferred name">INSR:c.3104G&gt;T (p.Gly1035Val)</ElementValue>
+      </Name>
+    </MeasureSet>
+    <TraitSet Type="Disease" ID="4058">
+      <Trait ID="1480" Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">Insulin-resistant diabetes mellitus AND acanthosis nigricans</ElementValue>
+          <XRef ID="Insulin-resistant+diabetes+mellitus+AND+acanthosis+nigricans/8675" DB="Genetic Alliance"/>
+          <XRef ID="9859006" DB="SNOMED CT"/>
+        </Name>
+        <Name>
+          <ElementValue Type="Alternate">DIABETES MELLITUS, INSULIN-RESISTANT, WITH ACANTHOSIS NIGRICANS, TYPE A</ElementValue>
+          <XRef Type="MIM" ID="610549" DB="OMIM"/>
+        </Name>
+        <Name>
+          <ElementValue Type="Alternate">INSULIN RECEPTOR, DEFECT IN, WITH INSULIN-RESISTANT DIABETES MELLITUS AND ACANTHOSIS NIGRICANS</ElementValue>
+          <XRef Type="MIM" ID="610549" DB="OMIM"/>
+        </Name>
+        <Name>
+          <ElementValue Type="Alternate">IRAN, TYPE A</ElementValue>
+          <XRef Type="MIM" ID="610549" DB="OMIM"/>
+        </Name>
+        <Name>
+          <ElementValue Type="Alternate">type A insulin resistance</ElementValue>
+          <XRef ID="GTR000321903" DB="Genetics Laboratory,Cambridge University Hospitals (Addenbrooke's)"/>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="age of onset">Childhood</Attribute>
+          <XRef ID="2297" DB="Orphanet"/>
+        </AttributeSet>
+        <XRef ID="C0271690" DB="MedGen"/>
+        <XRef ID="2297" DB="Orphanet"/>
+        <XRef Type="MIM" ID="610549" DB="OMIM"/>
+      </Trait>
+    </TraitSet>
+  </ReferenceClinVarAssertion>
+  <ClinVarAssertion ID="36060">
+    <ClinVarSubmissionID localKey="147670.0001_DIABETES MELLITUS, INSULIN-RESISTANT, WITH ACANTHOSIS NIGRICANS" title="INSR, GLY996VAL_DIABETES MELLITUS, INSULIN-RESISTANT, WITH ACANTHOSIS NIGRICANS" submitterDate="2013-05-16" submitter="OMIM"/>
+    <ClinVarAccession Acc="SCV000036060" Version="1" Type="SCV" OrgID="3" DateUpdated="2014-03-06"/>
+    <RecordStatus>current</RecordStatus>
+    <ClinicalSignificance DateLastEvaluated="2013-10-01">
+      <Description>Pathogenic</Description>
+    </ClinicalSignificance>
+    <Assertion Type="variation to disease"/>
+    <ExternalID DB="OMIM" Type="Allelic variant" ID="147670.0001"/>
+    <ObservedIn>
+      <Sample>
+        <Origin>germline</Origin>
+        <Species>human</Species>
+        <AffectedStatus>not provided</AffectedStatus>
+      </Sample>
+      <Method>
+        <MethodType>literature only</MethodType>
+      </Method>
+      <ObservedData>
+        <Attribute Type="Description">In a young Japanese male with insulin-resistant diabetes mellitus and acanthosis nigricans (610549), in whom impaired tyrosine protein kinase activity had been demonstrated, Odawara et al. (1989) cloned a cDNA for the insulin receptor. One of this person's alleles had a mutation in which valine was substituted for glycine-996, the third glycine in the conserved gly-X-gly-X-X-gly motif in the putative binding site for adenosine triphosphate. Expression of the mutant receptor by transfection into Chinese hamster ovary cells confirmed that the mutation impairs tyrosine kinase activity. The presence of mutant receptors appeared to have negative effects on the activity of the normal receptor. Studies with kinase-deficient insulin receptors transfected into cultured cells show that such receptors function as dominant-negative mutations and suppress the function of endogenous insulin receptors (review by Kahn and Goldstein, 1989). In most other cases of insulin resistance, the mutation is expressed as a recessive. Yamamoto-Honda et al. (1990) studied the function of this mutant form of the insulin receptor.</Attribute>
+        <Citation>
+          <ID Source="PubMed">2544998</ID>
+        </Citation>
+        <Citation>
+          <ID Source="PubMed">2662406</ID>
+        </Citation>
+        <Citation>
+          <ID Source="PubMed">2203761</ID>
+        </Citation>
+        <XRef DB="OMIM" Type="MIM" ID="610549"/>
+      </ObservedData>
+    </ObservedIn>
+    <MeasureSet Type="Variant">
+      <Measure Type="Variation">
+        <Name>
+          <ElementValue Type="Preferred">INSR, GLY996VAL</ElementValue>
+        </Name>
+        <AttributeSet>
+          <Attribute Type="NonHGVS">GLY996VAL</Attribute>
+        </AttributeSet>
+        <MeasureRelationship Type="variant in gene">
+          <Symbol>
+            <ElementValue Type="Preferred">INSR</ElementValue>
+          </Symbol>
+        </MeasureRelationship>
+        <XRef DB="OMIM" Type="Allelic variant" ID="147670.0001"/>
+      </Measure>
+    </MeasureSet>
+    <TraitSet Type="Disease">
+      <Trait Type="Disease">
+        <Name>
+          <ElementValue Type="Preferred">DIABETES MELLITUS, INSULIN-RESISTANT, WITH ACANTHOSIS NIGRICANS</ElementValue>
+        </Name>
+      </Trait>
+    </TraitSet>
+  </ClinVarAssertion>
+</ClinVarSet>
+</ReleaseSet>
